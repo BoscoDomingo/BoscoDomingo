@@ -1,5 +1,14 @@
-## Hi there 👋
+# Bosco Domingo - Founding Software Engineer
 
+Welcome to my little corner on GitHub. I'll keep it short:
+
+- Learn about me -> https://dub.sh/boscodomingo
+
+- Learn with me -> https://dub.sh/bosco-blog, https://dub.sh/bosco-oss, https://dub.sh/bosco-projects
+
+- Work with / Contact me -> https://www.linkedin.com/in/boscodomingo/, https://cal.com/boscodomingo
+
+Enjoy life and enjoy OSS.
 <!--
 **BoscoDomingo/BoscoDomingo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
