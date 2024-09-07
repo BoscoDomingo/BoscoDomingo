@@ -16,19 +16,48 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # Meta
           token: ${{ secrets.METRICS_TOKEN }}
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
+          committer_message: "chore: update metrics"
+          filename: "assets/github-metrics.*"
+          output_condition: data-changed
 
+          # Template config
           user: BoscoDomingo
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
           config_display: large
           config_octicon: yes
+          config_order: skyline, base.header, posts, reactions, languages, notable, isocalendar, habits, activity
           config_timezone: Europe/Madrid
+          config_twemoji: yes
+          template: classic
+
+          # Contents
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
+          plugin_discussions_categories_limit: 3
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_indepth: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: user
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_from: 500
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_habits_trim: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -36,25 +65,46 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_details: percentage,lines
+          plugin_languages_ignored: Jupyter Notebook,Handlebars
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_other: yes
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_recent_days: 90
+          plugin_languages_recent_load: 600
+          plugin_languages_sections: recently-used
+          plugin_languages_threshold: 0.5%
+          plugin_lines: yes
+          plugin_lines_delay: 0.5
+          plugin_lines_history_limit: 5
+          plugin_lines_repositories_limit: 5
+          plugin_lines_sections: base,repository,history
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit,pull_request,issue
           plugin_posts: yes
           plugin_posts_descriptions: yes
           plugin_posts_limit: 4
           plugin_posts_source: dev.to
           plugin_posts_user: boscodomingo
-          plugin_projects: yes
-          plugin_projects_limit: 4
           plugin_reactions: yes
           plugin_reactions_display: absolute
           plugin_reactions_limit: 200
           plugin_reactions_limit_discussions: 100
           plugin_reactions_limit_discussions_comments: 100
           plugin_reactions_limit_issues: 100
+          plugin_skyline: yes
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+          plugin_skyline_settings: |
+            {
+              "url": "https://skyline.github.com/${login}/${year}",
+              "ready": "[...document.querySelectorAll('span')].map(span => span.innerText).includes('Share on Twitter')",
+              "wait": 1,
+              "hide": "button, footer, a",
+            }
+          plugin_skyline_year: 2024
           repositories_forks: yes
