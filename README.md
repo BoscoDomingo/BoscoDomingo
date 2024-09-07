@@ -1,7 +1,6 @@
 # Bosco Domingo - Founding Software Engineer
 
 Welcome to my little corner on GitHub:
-Welcome to my little corner on GitHub:
 
 - Learn about me -> https://dub.sh/boscodomingo
 
