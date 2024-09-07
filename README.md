@@ -56,9 +56,8 @@ Welcome to my little corner on GitHub:
     <h4>I've also worked with</h4>
     <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,java,py,html,css,swift,terraform&theme=dark" alt="I've also worked with" height="25">
   </div>
-</div> -->
-
-
+</div>
+-->
 
 <table align="center">
   <thead>
@@ -114,4 +113,6 @@ Welcome to my little corner on GitHub:
   </tbody>
 </table>
 
-<img src="/assets/github-metrics.svg" alt="GitHub Metrics, provided by https://github.com/lowlighter/metrics" width="100%">
+<picture>
+  <img src="/assets/github-metrics.svg" alt="GitHub Metrics, provided by https://github.com/lowlighter/metrics" width="100%">
+</picture>

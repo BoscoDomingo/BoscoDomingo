@@ -56,7 +56,7 @@ jobs:
           plugin_followup_sections: user
           plugin_habits: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
+          plugin_habits_charts_type: charts
           plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_from: 500
@@ -82,9 +82,9 @@ jobs:
           plugin_languages_threshold: 0.5%
           plugin_lines: yes
           plugin_lines_delay: 0.5
-          plugin_lines_history_limit: 5
+          plugin_lines_history_limit: 2
           plugin_lines_repositories_limit: 5
-          plugin_lines_sections: base,repository,history
+          plugin_lines_sections: base
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_indepth: yes
