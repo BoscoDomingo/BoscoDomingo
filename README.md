@@ -115,6 +115,4 @@ Welcome to my little corner on GitHub:
   </tbody>
 </table>
 
-<picture>
-  <img src="/assets/github-metrics.svg" alt="GitHub Metrics, provided by https://github.com/lowlighter/metrics">
-</picture>
+<img src="/assets/github-metrics.svg" alt="GitHub Metrics, provided by https://github.com/lowlighter/metrics" width="100%">
