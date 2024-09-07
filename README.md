@@ -8,7 +8,9 @@ Welcome to my little corner on GitHub. I'll keep it short:
 
 - Work with / Contact me -> https://www.linkedin.com/in/boscodomingo/, https://cal.com/boscodomingo
 
-Enjoy life and enjoy OSS.
+<picture>
+  <img src="/assets/github-metrics.svg" alt="GitHub Metrics, provided by https://github.com/lowlighter/metrics">
+</picture>
 <!--
 **BoscoDomingo/BoscoDomingo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
