@@ -1,4 +1,4 @@
-# Bosco Domingo - Founding Software Engineer
+# Bosco Domingo - Senior Software Engineer
 
 Welcome to my little corner on GitHub:
 
