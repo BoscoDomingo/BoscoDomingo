@@ -41,7 +41,7 @@ jobs:
           template: classic
 
           # Contents
-          base: header, activity, community, repositories, metadata
+          base: header, metadata
           base_indepth: yes
           repositories_forks: yes
           
@@ -54,20 +54,10 @@ jobs:
           # plugin_discussions_categories: yes
           # plugin_discussions_categories_limit: 3
           
-          # plugin_followup: yes
+          plugin_followup: no
           # plugin_followup_archived: yes
           # plugin_followup_indepth: yes
           # plugin_followup_sections: user
-          
-          # plugin_habits: yes
-          # plugin_habits_charts: yes
-          # plugin_habits_charts_type: charts
-          # plugin_habits_days: 30
-          # plugin_habits_facts: yes
-          # plugin_habits_from: 500
-          # plugin_habits_languages_limit: 8
-          # plugin_habits_languages_threshold: 0%
-          # plugin_habits_trim: yes
           
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -109,10 +99,10 @@ jobs:
           
           plugin_reactions: yes
           plugin_reactions_display: absolute
-          plugin_reactions_limit: 190
-          plugin_reactions_limit_discussions: 90
-          plugin_reactions_limit_discussions_comments: 90
-          plugin_reactions_limit_issues: 90
+          plugin_reactions_limit: 250
+          plugin_reactions_limit_discussions: 150
+          plugin_reactions_limit_discussions_comments: 150
+          plugin_reactions_limit_issues: 150
 
           # Skyline doesn't work anymore
           # plugin_skyline: yes
