@@ -71,13 +71,13 @@ Welcome to my little corner on GitHub:
     <tr>
       <td>
         <a href="https://skillicons.dev">
-          <img height=30 alt="Preferred languages" src="https://skillicons.dev/icons?i=ts,js,nodejs,bun&theme=dark" />
+          <img height=30 alt="Preferred languages" src="https://skillicons.dev/icons?i=go,ts,js,nodejs,bun&theme=dark" />
         </a>
       </td>
       <td>
         <a href="https://skillicons.dev">
           <img height=30 alt="Tools"
-            src="https://skillicons.dev/icons?i=docker,postgres,supabase,pnpm,vscode&theme=dark" />
+            src="https://skillicons.dev/icons?i=docker,postgres,supabase,pnpm,linux&theme=dark" />
         </a>
       </td>
       <td>
@@ -92,7 +92,7 @@ Welcome to my little corner on GitHub:
 <table align="center">
   <thead>
     <tr>
-      <th>Learning</th>
+      <th>Learning/Interested in</th>
       <th>I've also worked with</th>
     </tr>
   </thead>
@@ -100,7 +100,7 @@ Welcome to my little corner on GitHub:
     <tr>
       <td>
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=go,cs,neovim,lua&theme=dark" alt="Learning" height="25">
+          <img src="https://skillicons.dev/icons?i=cs,dotnet,neovim,lua&theme=dark" alt="Learning" height="25">
         </a>
       </td>
       <td>
