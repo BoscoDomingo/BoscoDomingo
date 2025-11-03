@@ -2,11 +2,11 @@
 
 Welcome to my little corner on GitHub:
 
-- Learn about me -> https://dub.sh/boscodomingo
+- More about me -> [dub.sh/BoscoDomingo](https://dub.sh/boscodomingo)
 
-- Learn with me -> https://dub.sh/bosco-blog, https://dub.sh/bosco-oss, https://dub.sh/bosco-projects
+- Learn with me -> [YouTube](https://www.youtube.com/@elitesoftwareengineering), [Blog](https://dub.sh/bosco-blog), [OSS](https://dub.sh/bosco-oss), [Projects](https://dub.sh/bosco-projects)
 
-- Work with / Contact me -> https://www.linkedin.com/in/boscodomingo/, https://cal.com/boscodomingo
+- Work with / Contact me -> [LinkedIn](https://www.linkedin.com/in/boscodomingo), [Schedule a call](https://cal.com/boscodomingo)
 
 <!-- GitHub doesn't allow for custom CSS in READMEs, so I have to use a table instead
 <style>
