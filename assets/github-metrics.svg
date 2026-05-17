@@ -30,18 +30,18 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -127,7 +127,7 @@
                                 <div class="infos">
                                     <div class="left">
                                         <div class="date">16 Jul 2025</div>
-                                        <div class="cover" style="background-image: url(data:image/webp;base64,UklGRtgDAABXRUJQVlA4IMwDAAAwFgCdASqQAD0APm0wlUgkIqIhJzQKkIANiWkAE5S6FbwD7AZSJ635Cd6PqI8iP903xbjn9D/2HGB3EP+l5GugB/Cv6D/efzA/u/xy/63958930r/2fcH/kf9R/5PrY+u30Ef1uLgmAq6LzobFMpr01Ges95htluCLyRmOPkMFmCEfNl+3Ii8OekW20iQEOQSKSIumKk3WJM09wTW/bcZ9A9csIYoutyMmUr2wApHZ28Z/NnkhyKPzhIAA/vyoEFpE/3AtG2lROIhmdR7EK5/PWkvFKaDTPnF8OaK015DUTUJBHee/A0cL5bwvfzbbNCAIsEPMDPgn/jtL71qhWpKxz9FUrlFyrI8rCGHXQg3bc/7W/0nnKxuK//5y/z+OfZ/EsgLtOpv8sfmn+7X3E+zjLnlXXCeHBe6+FRkBNE8rBY1TwhD7JYQlx5I/+WkGWEhnl62ZuUSlkvuk28n4xhty1Gb9Uo/fjxP/i5DKqvf2yky9LFumpNKVsNafzWi3yv+cSVUkDR4BZ84v+3U0JoC+eox1OHE89Pjm7nJf+YYGehqWW0caDSfXGaT6MHwgmfh+c+ZSc/TcMQgTJSD2aEPa2bqJ8Kzqd7hAdbV568p8+xP60HZESOtsnLxyxjR96fgjQnnD3AR1AIbwSaMvELjAwRN2eIMkyHNkazDRnRf/xFHVzkKlNPmq/dYyRqM5fqRf/IMqO1Kq1cGxH/8nFvt9mmKvPI0j4F7eo4KsAcqzQBp9Jn7/cBAyxttnepjb2JEYDf7wYfVy7moY408enxk79B/pfkL5E5qmF8FTpTfgA1bjztoDARHA6sF+RYK06/mXQjSgRVdG1L53OPilVPtUpJF/GaxIZts7i+x9+04zYHgPZ2fAjodvIru9/OOIRBXh5YzfLdel5X2mZcnNflAl8/3La1YLXkEK3Kkki/4l/Sa5mg7m/MS1Mg5Oet+5vT/+/+C3RYbo03pEOfo+g5UwUEscEtlfQ5JeusxSNlWEe3IWSF01Y/hPxwO8hk6h7U0wy3Aulb8YGNUWxdoxCliQJpAtKuAx1H4FQZBeJTxKV49wz30Ffbq6k+Jydf45VF5pe/FI8wimOHIhgj+axf2G9e7o5b4/8R1ZJS/QjiLb8ch/vqahOHU/c//vhK7FLxDGc0kkep53IDD/WArntt6zso0r6jmouP/mPoPslm7CyZui+tHeYRjeIkc+R3hrY/kj/PgBKPhjYj8wE74fxEeY+D6v5dKXqi/LW3vdSBfz4iwAkJjwpt2PumxGEtmEkMo8E1dw5vhezAIAAAA=);"></div>
+                                        <div class="cover" style="background-image: url(data:image/webp;base64,UklGRtgDAABXRUJQVlA4IMwDAAAQFgCdASqQAD0APm0wlUgkIqIhJzQKkIANiWkAE5V6F3vl7CZTP6747d6PqI8hn90yVb6F/t+MDuIf9LyGdAD+Ff0H+8/mB/d/jo/1f7r57vpb/se4P/I/6f/y/Wx9dvoRfrGXBMBV0XnQ2KZTXpqM9Z7zDbLcY1ktKckHcn7LwsHrzfWO0TYjwZYbuBPwGFUM47Yt9fOvN+yp0ZmPWN96+TLASk8RtDHY2M9ypUzPT0xMD08ODZplAAD+/KgQWka0khmiryMTornX2x2EYye98zoOgDQdVHZoebAMdVJS+bL3W0EWms/y3jUCDQIKt1sBPXNHJgX/HKUxrVC2QNv2ayarXts9DxhnuCuhmy5+P0okeY56lY7P/nL//459qaP6X/cqjSiDnT/dr7ifZwjxQ10GJ4VugvR1K0xGqbF6LrdJ0i0pSkJPJO5gqTsYsDvvOWIibl6TKrKox/P3RtMzWNKHdLrnZf/i5DKGXf2yObEBQ03maZVkyX1Ftjlg9qlT9lICwoiBoyf26mdlTB31zCLLF4IftnGR/O32bhDxrSV9XkoRbU48ld/eh6CwKJST33KP7BBnD67AS/pLnvUD9arLjIMtjZyCkvS+CsGlrPxk38i1saa18KGB219sntMSMgiviJI1tRv2hNyOPy4+lnEoipZ4tEC/QaCT/zN1a/FfXJ5/mLqjbcRduYygADttPR87/+81w7/+Ti32+fUFjnkT761JDJVvVSh9/rM1mTZekGNmZUlTWBBqLWDJMAo7U8PdFophSJBWPUKUSequzaU7TCplZVp+thmNfAtoh8J9m5DU5TYV9grX1Tt6GMSpF9Z155n8VMLffst05iXhFRpSxO8l9Tav3/XOE13uOiwL4ICaZZmZlfipRl6wY8V9KpKv1EdD8coAW6zI2E/xadsmM1zKQr7PAxf5zvzF+pjnqiM3n3Bwb6YTa8D//n/BdWbyo2W1me4WLLBhCYqpW3qlmPuX7V5MclL/uTKrPVeETa+f4oTTnH6u0TtOtxu5KqS3SuEjT0Dfyi6aaNYQfe/hzdgf+LdOtT6ZLx4aJVw4btcOIMa41bmjz9G9G548F74idab34vInwAPfi4uhI+dVRPb8X/EeKS0uE6b5hvHIf76mYvs9W4bH78JXYpc5pZ08C7qP5Ysk/nCeHubYy+8fwcdj7eP/mS372IRmvWM2hf2ju0BxSPpKnSPOiLM7Q6s31LPu0rI+YCyf/4iOCfB+C8ucYDZvlror2siCDMWLXAEt4U6lrHNCKHiuzun1kCtmKQFPh/EIAAA=);"></div>
                                     </div>
                                     <div class="right">
                                         <div class="title">Notion - Create a date range for current week (Mon-Sun)</div>
@@ -316,7 +316,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~4.50
+                            Average per day at ~4.49
                         </div>
                     </section>
                 </div>
@@ -2291,13 +2291,18 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 16 May 2026, 03:00:24 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 17 May 2026, 03:08:06 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
